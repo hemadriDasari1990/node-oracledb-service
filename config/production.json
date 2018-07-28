@@ -1,0 +1,19 @@
+{
+  "dbConfig": {
+    "host" : "localhost",
+    "user" : "dbuser",
+    "password" : "dbpassword",
+    "db" : "jpmorgan"
+  },
+  "app" : {
+    "port" : 5014,
+    "userRefreshInterval" : 900000,
+    "gcInterval" : 3600000,
+    "oracleRefreshInterval" : 900000
+  },
+  "log":
+  {
+    "filePath" : "/usr/apps/rajesh/logs/JPservice.log",
+    "level" : "debug"
+  }
+}

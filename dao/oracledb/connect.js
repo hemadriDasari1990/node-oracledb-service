@@ -4,11 +4,10 @@ let oracledb = require('oracledb');
 
 let connection = oracledb.getConnection(
   {
-    user          : config.user,
-    password      : config.password,
-    connectString : `${config.host}/${config.db}`
-  },
-  function(err, connection) {
+    user          : config.dbConfig.user,
+    password      : config.dbConfig.password,
+    connectString : `${config.dbConfig.host}/${config.dbConfig.db}`
+  }, (err, connection) => {
     if (err) {
       console.error(err.message);
       return;

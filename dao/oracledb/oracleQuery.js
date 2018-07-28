@@ -1,5 +1,4 @@
 //Place all your oracle database queries here
-let { OracleDB } = global
 
 let QueryMap = {
     'getData': `select * from table`

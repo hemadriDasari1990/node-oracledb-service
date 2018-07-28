@@ -1,5 +1,5 @@
 var winston = require('winston');
-var expressWinston = require('express-winston');
+// var expressWinston = require('express-winston');
 
 winston.transports.DailyRotateFile = require('winston-daily-rotate-file');
 

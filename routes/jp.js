@@ -1,4 +1,3 @@
-let logger = require('../util/log');
 let express = require('express');
 let router = express.Router();
 let controller = require('../controller/jp.js');

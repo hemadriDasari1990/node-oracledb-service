@@ -1,6 +1,6 @@
 global.rootdir = __dirname; //ROOT level directory
 global.config = require('config');
-
+global.logger = require('./util/log');
 // Import required modules
 let express = require('express');
 let bodyParser = require('body-parser');
